@@ -13,9 +13,12 @@ npm install truffle -g
 mkdir mycoin
 cd mycoin
 truffle unbox tutorialtoken
+npm install zeppelin-solidity
 ```
 
-Now you can write and save your contracts in 'contracts' folder.
+**Edit truffle.js and replace port 7545 by 8545**
+Now write your token contract in `contracts/TutorialToken.sol` file. <br/>
+Create the file `2_deploy_contracts.js` in `migrations` folder. <br/>
 
 ## Running test network
 
@@ -24,7 +27,7 @@ Now you can write and save your contracts in 'contracts' folder.
 ## Running you DAPP!!
 Run this inside the project folder
 ```
-truffle migrate
+truffle migrate --reset
 npm run dev
 ```
 
