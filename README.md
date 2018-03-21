@@ -28,4 +28,11 @@ truffle migrate
 npm run dev
 ```
 
-Now open http://localhost:8080 in your browser.
+Now open http://localhost:3000 in your browser.
+
+## Links
+https://github.com/mdakram28/blockchain-session
+
+https://github.com/mdakram28/blockchain-session/blob/master/Ethereum%20Explained.ipynb
+
+
