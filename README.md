@@ -1,6 +1,6 @@
 # Blockchain Session Reference
 
-## Installing
+## Installing the necessary softwares
 <i>Make sure you have nodejs installed</i>
 ```
 npm install ethereumjs-testrpc -g
